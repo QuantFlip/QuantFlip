@@ -99,7 +99,7 @@ lm_eval \
 ├── lm-evaluation-harness    # lm-eval's official GitHub repository 
 │   └── requirements.txt/   # file to install and configure the lm-eval test task library
 ├── models/                  # Place downloaded HuggingFace models here
-│   └── BitNet-b1.58-2B-4T/  # Example model
+│   └── Falcon-E-1B-Base/  # Example model
 └── test/                    # Output folder for lm-eval results
 ```
 
@@ -114,4 +114,5 @@ lm_eval \
 - If your model has no `pad_token`, the server automatically sets `pad_token = eos_token`.
 - Using our code to run AutoVPS and tamper with the model may yield a corrupted model that tests differently than ours.
 - This occurs because AutoVPS's list comes from simulation, so some bits may not flip on real hardware.
+
 - This simulation-to-hardware gap causes variation in the final corruption effect.
