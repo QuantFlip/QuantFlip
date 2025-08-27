@@ -96,8 +96,6 @@ lm_eval \
 .
 ├── server.py                # FastAPI server exposing /v1/completions
 ├── requirements.txt         # file to install and configure the server runtime library
-├── lm-evaluation-harness    # lm-eval's official GitHub repository 
-│   └── requirements.txt/   # file to install and configure the lm-eval test task library
 ├── models/                  # Place downloaded HuggingFace models here
 │   └── Falcon-E-1B-Base/  # Example model
 └── test/                    # Output folder for lm-eval results
@@ -116,3 +114,4 @@ lm_eval \
 - This occurs because AutoVPS's list comes from simulation, so some bits may not flip on real hardware.
 
 - This simulation-to-hardware gap causes variation in the final corruption effect.
+
