@@ -1,3 +1,6 @@
 [submodule "evaluation/lm-evaluation-harness"]
 	path = evaluation/lm-evaluation-harness
 	url = https://github.com/EleutherAI/lm-evaluation-harness.git
+[submodule "tools/blacksmith"]
+	path = tools/blacksmith
+	url = https://github.com/comsec-group/blacksmith.git
